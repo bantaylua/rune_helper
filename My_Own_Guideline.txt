@@ -1,0 +1,18 @@
+This is my own guidelines about this project.
+First of all, this project to make less thinking, more quickly to check about your runes when you get it. 
+
+Basic Part
+    Set up only for % and SPD
+	    Go for 1/3 then 5 and after that is 2/4/6
+Advance Later
+	Go for flat stat leftover 
+		Go 1/3 then go to 5 and 2/4/6 later 
+			Then we will count in the Set bonus
+				After that is the Team Set bonus
+Upgrade more
+	Update for Ancient Runes
+		Add Reapp
+			Add Grindstone and Enchanted gem
+
+*****
+Basic that is the flow i want to track and go with it. Should be change if anything happen. 
