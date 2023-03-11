@@ -1,11 +1,11 @@
 Rune still have to synergize, even if it has high score. 
 
 // Grading System
-1 Spd = 2 points so 6 Spd = 12 points 
-1 CR = 1.5 points so 5 CR = 8 points (round up)
-1 Atk% = 1 Def% = 1 Hp% = 1 CD = 1 point. 
-1 Acc = 0.5 or 1 point base on your needs and how much it synergizes with other stats.
-1 Res = 0 or 1 point base on how many rolls hit Res. High Res runes are desired, but the monsters they go are niche, so a rune that has Res is generally consider a dead stat. If it doesn't roll at least 2 times into Res, mark it as 0. 
+    1 Spd = 2 points so 6 Spd = 12 points 
+    1 CR = 1.5 points so 5 CR = 8 points (round up)
+    1 Atk% = 1 Def% = 1 Hp% = 1 CD = 1 point. 
+    1 Acc = 0.5 or 1 point base on your needs and how much it synergizes with other stats.
+    1 Res = 0 or 1 point base on how many rolls hit Res. High Res runes are desired, but the monsters they go are niche, so a rune that has Res is generally consider a dead stat. If it doesn't roll at least 2 times into Res, mark it as 0. 
 
 *Flat stat - Skip for now 
     You can convert flat stats to a sort of 'average' of what it would be as a % of base. Or you can count them as 2-3% per roll and call it good.
@@ -13,25 +13,31 @@ Rune still have to synergize, even if it has high score.
     250 HP = 2.5% HP, 15 ATK = 2% ATK, 12 DEF = 2% DEF.
 
 // Grading Base Rune
-The max point value a 6* rune can have at base is 37 points.
-6 SPD + 6% CR + 8% ATK + 8% HP = 12 + 9 + 8 + 8 = 37.
-This is increased to 45 with an innate 8% DEF or ACC if you need ACC.
-Assuming stats still synergize (and no flat stats), the minimum a 6* purple rune can have is 15 points: 5% HP, 5% DEF, 5% ATK. Generally you would not roll this rune, as stats barely synergize (it would need to roll SPD at +12, and highly roll all three times into the stats given, to be considered worth keeping).
-You can consider, then, that 15 points is "too low to roll" in general, after looking at trash stats like flat HP or RES% that may be on the rune. Ergo "15 or less is instant sell" is a good rule of thumb, though not that useful, because runes that are less than 15 will usually look bad anyway.
-
+    Max points of 6* rune = 37 
+    6 Spd + 6 CR + 8 Atk% + 8 Hp% = 12 + 9 + 8 + 8 = 37
+    If have innate is 45 with 8 Def% or Acc 
+    Min 6* Hero rune is 15 point = 5 Hp% + 5 Def% + 5 Atk% 
+    Consider 15 points is Trash 
+    
 // Grading Upgraded Rune 
-The same point values apply as you level up your rune (other than RES, which actually gains value if it rolls a few times).
-You are kind of looking for an average "increase" in point value of more than 6 per roll, as 6 is about average (taking into account RES/ACC/CD% being lower, and SPD/CR% being higher) across all non-flat stats.
-Once again this fluctuates a bit depending on the rune slot. Slots 1, 3, and 5 have less leeway (e.g. you might want 7 or more) than slots 2, 4, and 6 (maybe 6 average is fine).
-It also fluctuates depending on your progress in the game. End game players will have stricter requirements (that usually involved SPD rolling a few times regardless of the slot, set, main, or whatever) than newbies.
+    Look for average increase > 6 per roll 
+    Slot 1/ 3/ 5 might want 7 or more 
+    Slot 2/ 4/ 6 have 6 is fine 
 
 // Custom it yourself 
-Keeping all of the above in mind, you'll have different "final point" cutoffs depending on where you are in the game, what slot you're looking at, what slot(s) and stats you need for certain monsters and teams, and what the set is.
-A general guideline for point cutoffs for early to mid game players, without including the innate stat, is anything under 40 at +12 is instantly sold. Anything that is 35 or under at +9 should also probably be sold. Around 50 points, give or take a few, is usually a good filler rune that can finish a set or grab those last few points of whatever stat that you need to round out a build. 60 or higher is generally considered very good, and anything over 70 is godlike, and usually requires multiple speed rolls on a legendary rune.
-Add 5-7 points to each score if you want to hunt good innate stats. I personally don't, because it makes this already-somewhat-complex method even more complex. I just keep the above values in mind and add the innate stat to that. The RNG requirements get a lot more strict when you're looking at FIVE sub stats (and sometimes a main stat on top of that) to synergize.
-Late and End Game players are going to increase those point values by 5-10. Sell anything less than 50, search for 60, and be happy with 70.
-As always, take these values with a grain of salt, they aren't set in stone, and you need to do some personal analysis of what you need to determine when you should be more lenient on these point values. These just give you a baseline for grading the rune, using your head is the final step.
-// Max Values (pre-grind and gem)
-For a theoretical, "absolute" max (30 SPD, 6% CR, 8% ATK, 8% HP) would be 60 + 9 + 8 = 8 = 85. Including 8% DEF as an innate stat would be 93 (more realistically you'd probably want 7% CD innate, so it's 92). The odds of obtaining this rune are less than one in one trillion. I'm serious. That's why I call it theoretical. The odds of getting a rune comparable to the bullet points below are much more common, thus using THOSE as an actual ceiling is more reasonable.
-For realistic max for a Support/ Tank character, if we hold SPD to only rolling twice (to 18) and no CR%, then the max point value possible on a rune is 36 + 24 + 8 + 8 = 76. This would be like 18 SPD, 24% HP, 8% DEF, 8% ACC or RES.
-A semi-realistic max for a damage dealer for slot 1 or 5 would be 18 SPD, 18% CR, 8% ATK, 7% CD, which would be 36 + 8 + 27 + 7 = 78. A DEF- or HP-based DD would have the same value on slot 3 and 5, only with DEF% or HP% instead of ATK%.
+    General Guideline 
+        Without innate:
+            < 40 at +12 is SOLD 
+            < 36 at +9 is SOLD 
+            ~ 50 give or take a few 
+            60 >= considered very good 
+            > 70 is godlike 
+    Late and End Game 
+        Sell < 50 
+        Search ~ 60
+        Happy ~ 70
+
+*Max Values (pre-grind and gem) - Skip for now 
+    For a theoretical, "absolute" max (30 SPD, 6% CR, 8% ATK, 8% HP) would be 60 + 9 + 8 = 8 = 85. Including 8% DEF as an innate stat would be 93 (more realistically you'd probably want 7% CD innate, so it's 92). The odds of obtaining this rune are less than one in one trillion. I'm serious. That's why I call it theoretical. The odds of getting a rune comparable to the bullet points below are much more common, thus using THOSE as an actual ceiling is more reasonable.
+    For realistic max for a Support/ Tank character, if we hold SPD to only rolling twice (to 18) and no CR%, then the max point value possible on a rune is 36 + 24 + 8 + 8 = 76. This would be like 18 SPD, 24% HP, 8% DEF, 8% ACC or RES.
+    A semi-realistic max for a damage dealer for slot 1 or 5 would be 18 SPD, 18% CR, 8% ATK, 7% CD, which would be 36 + 8 + 27 + 7 = 78. A DEF- or HP-based DD would have the same value on slot 3 and 5, only with DEF% or HP% instead of ATK%.
