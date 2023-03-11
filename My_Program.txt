@@ -1,0 +1,108 @@
+// We will use the pseudo code instead of real code 
+// Because our time does not support and my skill is still not enough to do this right now 
+// First of all, we need a database.
+
+// Some of idea check from top to bottom
+
+// Function check grade to sell or roll/ keep 
+Grade_Check()
+    If (Grade < 5)
+        then Sell_Rune()
+    Else Rarity_Check()
+
+Rarity_Check()
+    If (Rarity < Rare)
+        then Sell_Rune()
+    Else Temp_Rune()
+
+
+Filter: Rune 2/ 4/ 6 is remove temp because we just want to deal with slot 1/ 3/ 5
+    If (Rune.Slot = 2/ 4/ 6)
+        then Rune.TempRemove 
+    Else Rune.Temp 
+    >> DB has only Slot 1/ 3/ 5
+    If (Rune.Grade = 5)
+        Flat_count = 0
+        For (i = 1; i <= Number of Subs; i++)
+            if (Sub[i] = Flat)
+                then (Flat_count++)
+        If (Flat_count >= 2)
+            then Rune.Sell 
+    Else Rune.Grade = 6
+        If (Rune.Rarity = Legend)
+            Rune.Manual/ Skip 
+        Else If (Flat_count >= 2)
+            Rune.Sell 
+            // DB is only 5* 6* with percentage subs 
+            // 6* Legend 2+ Flat subs is skip 
+
+Roll checker
+    If (Rune.Grade = 6)
+        then if (Rune.Rarity = Legend)
+            then Rune.Manual/ Skip 
+    If (Rune.Grade = 5)
+        If (Rune.Upgrade = 3)
+            then Do (Sub.Attribute[i] >= Column)
+                while (i = 0; i < Number of Subs; i++)
+
+// DB 5* 6* (1/ 3/ 5 slot; 1- Flat sub)
+    >> Check base on 6* stats 
+
+Should go path 
+    Min base +9 > Min base +6 > Min base +3 
+    // This only applied for 5*
+    Path for 6*
+        Filter Base > Filter Value 1 > Filter Value 2 > Filter value 3 > Filter value 4 
+
+    Other path 
+        Base > Check +3 > Pass > Check +6 > Pass > Check +9 > Pass > Check +12
+
+    5* 
+        Check base > Check +3 > Check +6 > Check +9
+    6*
+        Skip > Check +3 > Check +6 > Check +9
+    
+Function Check_Base_Value (Rune.Grade)
+    If (Rune.Grade = 6)
+        > Return True;
+    If (Rune.Grade = 5)
+        then If (Rune.Rarity = Rare)
+            Return True
+                When if (one in all sub pass)
+                    Do (Check sub[i] >= List.5* Min Rare Value.Sub)
+                    Else 
+                        Do (Check sub[i] >= List.5* Min Epic Value.Sub)
+
+    Rune 
+    +Grade (1 - 6)
+    +Upgrade (1 - 15)
+    +Rarity (Normal - Magic - Rare - Hero - Legend)
+    +Slot (1 - 6)
+    +Main_stat ()
+
+    -Sell 
+    -Temp 
+    -Roll 
+    -Keep 
+    -TempRemove
+    -Manual/ Skip 
+
+    Rarity
+    +Number of Subs 
+
+    Normal: No sub
+    Magic: Sub slot 1
+    Rare: Sub slot 1, 2
+    Epic: Sub slot 1, 2, 3
+    Legend: Sub slot 1, 2, 3, 4
+
+*****
+Rune number 
+Slot 1 - 819
+Slot 3 - 786
+Slot 5 - 726
+Slot 2 - 462
+Slot 4 - 481
+Slot 6 - 489
+
+Should have slot 1/ 3/ 5 is only ~ 1.5x Slot 2/ 4/ 6
