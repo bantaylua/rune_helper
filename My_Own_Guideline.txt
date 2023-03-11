@@ -1,10 +1,16 @@
-Visual 
+// Visual 
 	This project will help me on reduce junk runes in my storage 
-Method 
+
+// Method 
 	By filter from the early stage of getting runes 
 	The use more detailed and advanced filter to get fit with monster in box of my account 
 	Last but not least is keep the runes with highest quality for future use. 
-Road Map 
+// Resource will be use 
+	Import the runes' database from SWEX 
+		Link: https://github.com/Xzandro/sw-exporter#developing-plugins
+	
+
+// Road Map 
 First Thing first 
     Set up only for % and SPD stats 
 	    Go 1/3 then 5 and after that is 2/4/6
@@ -18,3 +24,9 @@ Higher Result
 	Update for Ancient Runes
 		Add Reapp
 			Add Grindstone and Enchanted gem
+
+// Progress 
+Doing First Thing first 
+	Set up only for % and SPD stats 
+	    Go 1/3 then 5 and after that is 2/4/6
+			Base rune > Upgraded rune
