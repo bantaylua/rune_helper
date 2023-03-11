@@ -1,4 +1,5 @@
 This file is a description about road map step to step and checking it finished or not.
+
 The core of this project is included 
     - Import the rune database from SWEX - See https://github.com/Xzandro/sw-exporter#developing-plugins for more information.
     - Make a list of condition in a settings for filter the runes 
@@ -6,7 +7,8 @@ The core of this project is included
         - 2nd layer is the synergies of subs in the runes 
         - 3rd layer is the synergies with the set of runes(but this will be in later if this app is supported)
     - Notification if the rune need to be sell or keep 
-First of all, we need a database base.
+
+First of all, we need a database.
 
 We will be started at a new player. So we will have a lowest grade and quality of runes.
 
